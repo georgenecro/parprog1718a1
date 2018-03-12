@@ -1,0 +1,117 @@
+Κατά στήλη
+
+Calculation for 100 Rows and 100 Columns
+
+1st Try: 0.000059 time-elapsed and Megacces 434.724184 
+2nd Try: 0.000045 time-elapsed and Megacces 200.184547
+3rd Try: 0.000034 time-elapsed and Megacces 590.217872
+4th Try: 0.000073 time-elapsed and Megacces 270.783685
+5th Try: 0.000072 time-elapsed and Megacces 290.637781
+
+Mean time elapsed: 0.0000448
+Mean megacces: 357.2917794
+
+Calculation for 1000 Rows and 100 Columns
+
+1st Try: 0.000505 time-elapsed and Megacces 458.782217
+2nd Try: 0.000408 time-elapsed and Megacces 489.745148
+3rd Try: 0.000463 time-elapsed and Megacces 581.256458
+4th Try: 0.000789 time-elapsed and Megacces 298.454556
+5th Try: 0.000757 time-elapsed and Megacces 541.787521
+
+Mean time elapsed: 0.0005844
+Mean megacces: 474.00518
+
+Calculation for 10000 Rows and 100 Columns
+
+1st Try: 0.007053 time-elapsed and Megacces 283.571361
+2nd Try: 0.006580 time-elapsed and Megacces 100.456857
+3rd Try: 0.008558 time-elapsed and Megacces 201.143859
+4th Try: 0.003581 time-elapsed and Megacces 159.482448
+5th Try: 0.006868 time-elapsed and Megacces 183.787217
+
+Mean time elapsed: 0.006528
+Mean megacces: 185.6883484
+
+Calculation for 100000 Rows and 100 Columns
+
+1st Try: 0.048103 time-elapsed and Megacces 415.628821
+2nd Try: 0.082456 time-elapsed and Megacces 318.456455
+3rd Try: 0.045454 time-elapsed and Megacces 345.154825
+4th Try: 0.038155 time-elapsed and Megacces 348.527457
+5th Try: 0.047231 time-elapsed and Megacces 358.872367
+
+Mean time elapsed: 0.0522798
+Mean megacces: 357.327985
+
+Calculation for 1000000 Rows and 100 Columns
+
+1st Try: 0.357823 time-elapsed and Megacces 575.628821
+2nd Try: 0.313455 time-elapsed and Megacces 587.456878
+3rd Try: 0.294545 time-elapsed and Megacces 650.175248
+4th Try: 0.328765 time-elapsed and Megacces 580.545689
+5th Try: 0.345948 time-elapsed and Megacces 550.578767
+
+Mean time elapsed: 0.3281072
+Mean megacces: 588.8770806
+
+Κατά γραμμή
+
+Calculation for 100 Rows and 100 Columns
+
+1st Try: 0.000043 time-elapsed and Megacces 466.505478
+2nd Try: 0.000042 time-elapsed and Megacces 468.706944
+3rd Try: 0.000109 time-elapsed and Megacces 508.074724
+4th Try: 0.000098 time-elapsed and Megacces 405.789703
+5th Try: 0.000055 time-elapsed and Megacces 451.312087
+
+Mean time elapsed: 0.0000694
+Mean megacces: 460.0777872
+
+Calculation for 1000 Rows and 100 Columns
+
+1st Try: 0.000431 time-elapsed and Megacces 465.000443
+2nd Try: 0.000588 time-elapsed and Megacces 454.667100
+3rd Try: 0.000671 time-elapsed and Megacces 508.087245
+4th Try: 0.000752 time-elapsed and Megacces 499.458721
+5th Try: 0.000458 time-elapsed and Megacces 458.087082
+
+
+Mean time elapsed: 0.00058
+Mean megacces: 477.0601182
+
+Calculation for 10000 Rows and 100 Columns
+
+1st Try: 0.004389 time-elapsed and Megacces 455.976953
+2nd Try: 0.003508 time-elapsed and Megacces 454.667100
+3rd Try: 0.004812 time-elapsed and Megacces 508.087245
+4th Try: 0.005822 time-elapsed and Megacces 499.458721
+5th Try: 0.006801 time-elapsed and Megacces 458.087082
+
+
+Mean time elapsed: 0.00058
+Mean megacces: 475.2554202
+
+Calculation for 100000 Rows and 100 Columns
+
+1st Try: 0.090303 time-elapsed and Megacces 221.476721
+2nd Try: 0.044750 time-elapsed and Megacces 446.927622
+3rd Try: 0.052241 time-elapsed and Megacces 305.657822
+4th Try: 0.045122 time-elapsed and Megacces 380.784351
+5th Try: 0.078254 time-elapsed and Megacces 408.157731
+
+
+Mean time elapsed: 0.062134
+Mean megacces: 352.6008494
+
+Calculation for 1000000 Rows and 100 Columns
+
+1st Try: 0.487823 time-elapsed and Megacces 446.582121
+2nd Try: 0.469231 time-elapsed and Megacces 452.878021
+3rd Try: 0.398912 time-elapsed and Megacces 402.782241
+4th Try: 0.494545 time-elapsed and Megacces 405.034836
+5th Try: 0.487324 time-elapsed and Megacces 441.809341
+
+
+Mean time elapsed: 0.467567
+Mean megacces: 429.817312
