@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <sys/time.h>
 
-void
-get_walltime (double *wct)
+void get_walltime (double *wct)
 {
   struct timeval tp;
   gettimeofday (&tp, NULL);
