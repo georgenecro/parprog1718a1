@@ -2,53 +2,56 @@
 #include <stdlib.h>
 #include <sys/time.h>
 
-// compile like:  gcc -Wall -O2 -DNROWS=10000 matrix1.c -o matrix1
-
-
-#define NCOLS 100
-
-void get_walltime(double *wct) {
+void
+get_walltime (double *wct)
+{
   struct timeval tp;
-  gettimeofday(&tp,NULL);
-  *wct = (double)(tp.tv_sec+tp.tv_usec/1000000.0);
+  gettimeofday (&tp, NULL);
+  *wct = (double) (tp.tv_sec + tp.tv_usec / 1000000.0);
 }
 
 
-int main() {
-double *table;
-double ts,te;
+int
+main (int argc, const char *argv[])
+{
 
+  double *Array;
+  double start, end;		                                        //time starts, time ends
+  int Fill = 0;
 
-  table = (double *)malloc(NROWS*NCOLS*sizeof(double)); 
-  if (table==NULL) {
-    printf("alloc error!\n");
-    exit(1);
-  }
+  Array = (double *) malloc (NROWS * NCOLS * sizeof (double));
 
-  // warmup
+  if (Array == NULL)                                                // error checking
+    {
+      printf ("Error! memory not allocated.");
+      exit (0);
+    }
 
-  // ...your code here...
+  for (int i = 0; i < NROWS * NCOLS; i++)                           //arxikopoihsh pinaka
+    {
+      Array[i] = 0.0;
+    }
 
-  // get starting time (double, seconds) 
-  get_walltime(&ts);
+  get_walltime (&start);                                            //3ekinaw na upologizw ton xrono
+
+  for (int i = 0; i < NROWS; i++)
+    {
+      for (int j = 0; j < NCOLS; j++)
+	    {                                                       // kata grami
+	        Fill += Array[j*NCOLS + i];                         // apifigh skip kapoiou loop apo ton metaglwtisth 
+    	}
+    }
+
+  get_walltime (&end);                                              //stamataw na upologizw ton xrono
   
-  // workload
+  double tim = ((double) end - start);  
 
-  // ...your code here...
-
-  // get ending time
-  get_walltime(&te);
-
-  // check results
+  free (Array);
+  printf ("%f Time Elapsed", tim);                                                                   //results
+  printf ("\n");
+  printf ("%f Megacces/sec",(2.0 * NROWS * NCOLS) / ((end - start) * 1000000));                //prospelaseis to deuterolepto
+  printf ("\n");
+  printf ("%d", Fill);                                                                       // to tipwnw gia na min to paralipsei o compiler
   
-  // ...your code here...
-
-  // print time elapsed and/or Maccesses/sec
-  
-  // ...your code here...  
-  
-  free(table);
-
   return 0;
 }
-
