@@ -1,6 +1,6 @@
-Fill+= Array[i*NCOLS + j]; Κατά στήλη
+Κατά στήλη
 
-**Calculation for 100 Rows and 100 Columns**
+Calculation for 100 Rows and 100 Columns
 
 1st Try: 0.000059 time-elapsed and Megacces 434.724184 
 2nd Try: 0.000045 time-elapsed and Megacces 200.184547
@@ -55,14 +55,7 @@ Calculation for 1000000 Rows and 100 Columns
 Mean time elapsed: 0.3281072
 Mean megacces: 588.8770806
 
-
-
-
-
-
-
-
-Fill+= Array[j*NROWS + i]; Κατά γραμμή
+Κατά γραμμή
 
 Calculation for 100 Rows and 100 Columns
 
@@ -122,5 +115,3 @@ Calculation for 1000000 Rows and 100 Columns
 
 Mean time elapsed: 0.467567
 Mean megacces: 429.817312
-
-
